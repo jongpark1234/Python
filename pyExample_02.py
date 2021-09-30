@@ -3,4 +3,5 @@
 print('JongPark') # JongPark
 print("ParkJong") # ParkJong
 print("!@#$%^&*()") # !@#$%^&*()
-print("JPark" * 10) # JParkJParkJParkJParkJParkJParkJParkJParkJParkJPark
+print("Jong" + "Park") # JongPark
+print("JPark" * 5) # JParkJParkJParkJParkJPark
