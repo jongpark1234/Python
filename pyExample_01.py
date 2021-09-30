@@ -1,4 +1,7 @@
 # Number Type Data
+
+# int : integer number, float : real number
+
 print(5) # 5 ( int )
 print(-10) # -10 ( int )
 print(3.14) # 3.14 ( float )
