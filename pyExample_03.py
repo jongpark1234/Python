@@ -23,4 +23,4 @@ print(10 > 3) # True
 # If you put "not", the bool will be reversed.
 
 print(not False) # True
-print(not 3 < 5) # False 
+print(not (3 < 5)) # False 
