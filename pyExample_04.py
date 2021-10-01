@@ -13,3 +13,16 @@ print(age) # 17
 print("Name : " + name) # Name : JongPark
 print("Age : " + str(age)) # Age : 17
 print("Name : " + name + ", Age : " + str(age)) # Name : JongPark, Age : 17
+
+num1 = 10
+num2 = 5
+
+# Variables can be calculated with each other.
+
+print(num1 + num2) # 15
+print(num1 / num2) # 2.0
+
+# Variables can be declared again.
+
+num1 = 3
+print(num1) # 3
