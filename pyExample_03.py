@@ -24,4 +24,3 @@ print(10 > 3) # True
 
 print(not False) # True
 print(not (3 < 5)) # False
-print("a\b\bb")
