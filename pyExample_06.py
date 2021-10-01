@@ -23,10 +23,13 @@ print(4 >= 3) # True ( The left value is greater than or equal to the right valu
 print(6 <= 6) # True ( The left value is less than or equal to the right value )
 print(5 == 5) # True ( The value is the same )
 print(4 != 4) # False ( The value is not same )
-# Reference
+# Reference 1
 print(5 is 5) # True
 print(5 is 5.0) # False
 print(5 == 5.0) # True
+# Reference 2
+print(5 > 3 > 1) # True
+print(5 > 6 > 4) # False
 
 
 # Logical Operator
