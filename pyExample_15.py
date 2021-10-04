@@ -1,4 +1,4 @@
-# Escape Character
+# Escape
 
 print("I am\nJongPark")
 # I am

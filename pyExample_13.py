@@ -8,6 +8,9 @@ print(string[0].isupper()) # True
 print(string[1].isupper()) # False
 print(len(string)) # 13 ( Include a space )
 
+print(string.count("a")) # 2
+print(string.count("I")) # 1
+
 print(string.replace("JongPark", "Python")) # I am Python
 print(string.replace("am", "was")) # I was JongPark
 
