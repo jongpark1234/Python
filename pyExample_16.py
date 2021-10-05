@@ -15,5 +15,5 @@ length = len(string)
 countE = string.count("e")
 string = string[:3]
 
-print(string + str(length) + str(countE) + "!")
+print(string + str(length) + str(countE) + "!") # goo61!
 
