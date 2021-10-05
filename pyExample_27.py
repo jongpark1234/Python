@@ -23,8 +23,8 @@ def std_weight(height, gender):
     else:
         return "UnKnown"
     
-height = 175
-gender = "Woman"
+height = int(input("Height : "))
+gender = input("Gender (Man / Woman) : ")
 
 print("The standard weight for a {} cm tall {} is {} kg.".format(height, gender, std_weight(height / 100, gender)))
 
