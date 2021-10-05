@@ -12,5 +12,5 @@ while (num < 5): # if num is loss than 5
 numlist = list(range(1, 101)) # 1 ~ 100 list.
 
 while (num != 50): # Repeat until you get 50.
-    num = int(random.sample(numlist, 1))
+    num = random.sample(numlist, 1)[0]
     print(num)
