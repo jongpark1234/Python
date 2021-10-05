@@ -22,6 +22,7 @@ print(strset1 - strset2) # {'C', 'Java'} ( Random order )
 print(strset1.difference(strset2)) # {'C', 'Java'} ( Random order )
 
 strset1.add("C#")
-print(strset1) # {'Python', 'C#', 'Java', 'C'}
+print(strset1) # {'Python', 'C#', 'Java', 'C'} ( Random order )
 strset1.remove("C")
-print(strset1) # 
+print(strset1) # {'Python', 'C#', 'Java'} ( Random order )
+
