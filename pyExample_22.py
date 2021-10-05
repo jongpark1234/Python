@@ -1,4 +1,4 @@
-# if
+# If
 
 # if 'contdition':
 # \t'imperative'
@@ -14,7 +14,7 @@ elif (time == "noon"): # elif (time == "noon") == True:
 else: # final
     print("What?")
 
-temperature = 28
+temperature = input("What's the temperature now? ")
 
 if (temperature > 30):
     print("It's so hot!")
@@ -22,7 +22,9 @@ elif (temperature > 20):
     print("It's just right!")
 elif (temperature > 10):
     print("It's cool!")
-else:
+elif (temperature <= 10):
     print("It's so cold!")
+else:
+    print("What?")
 
 
