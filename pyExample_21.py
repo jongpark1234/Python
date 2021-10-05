@@ -17,3 +17,6 @@ print(age) # 17
 
 age = float(age) # float
 print(age) # 17.0
+
+age = str(age) # str
+print(age) # "17.0"
