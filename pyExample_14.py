@@ -1,4 +1,4 @@
-# Foramt
+# Format
 
 str1 = "I am"
 str2 = "JongPark"
